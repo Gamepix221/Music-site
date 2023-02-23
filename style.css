@@ -15,7 +15,8 @@ header {
 header nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
  header nav .lien {
     display: flex;
@@ -24,4 +25,12 @@ header nav {
  header nav img {
     height: 60px;
     width:60px;
+ }
+
+ header nav .right {
+    display: flex;
+    align-items: center;
+ }
+ a {
+    margin-left: 20px;
  }
