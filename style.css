@@ -1,1 +1,18 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+body {
+    background-color: 2F303A;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+ header nav ul {
+    display: flex;
+    flex-direction: row;
+ }
