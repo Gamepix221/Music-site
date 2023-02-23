@@ -8,11 +8,23 @@
 body {
     background-color: black;
 }
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
  header nav ul {
     display: flex;
     flex-direction: row;
+ }
+ header nav img {
+    height: 120px;
+    width:120px;
  }
