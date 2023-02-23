@@ -6,7 +6,7 @@
     color: white;
 }
 body {
-    background-color: 2F303A;
+    background-color: gray;
 }
 header {
     height: 100px;
@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
 }
-nav {
+header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
