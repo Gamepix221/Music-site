@@ -20,7 +20,7 @@ header nav {
     align-items: center;
     justify-content: space-between;
 }
- header nav ul {
+ header nav .lien {
     display: flex;
     flex-direction: row;
  }
