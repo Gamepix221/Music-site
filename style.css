@@ -11,15 +11,16 @@ body {
 }
 header {
     height: 100px;
-    width: 90%;
+    width: 80%;
     margin: auto;
+    background-color: red;
 }
 header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
  header nav .lien {
     display: flex;
