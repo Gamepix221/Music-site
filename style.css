@@ -7,13 +7,11 @@
     font-family: 'Inter', sans-serif;
 }
 body {
-    background-color: gray;
+    background-color: rgb(47, 48, 58);
 }
 header {
-    height: 100px;
     width: 80%;
     margin: auto;
-    background-color: red;
 }
 header nav {
     display: flex;
@@ -38,3 +36,15 @@ header nav {
  a {
     margin-left: 20px;
  }
+main {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main .left .btn {
+    padding: 10px;
+    border-radius: 10px;
+}
