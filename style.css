@@ -55,6 +55,6 @@ main .right img{
     width: auto;
     height: 80vh;
 }
-main .left h2, p, .btn {
+main .left h2, p, a {
     margin-bottom: 40px;
 }
