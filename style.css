@@ -56,7 +56,7 @@ main .right img{
     height: 80vh;
 }
 main .left p{
-    margin:0px;
+    background-color: crimson;
 }
 main .left h1{
     font-size: 2.8rem;
