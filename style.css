@@ -53,8 +53,8 @@ main .left .btn {
     width: 50%;
 }
 main .right img{
-    width: 100vh;
-    height: auto;
+    width: auto;
+    height: 100vh;
 }
 main .left h2, p, .btn {
     margin-bottom: 40px;
