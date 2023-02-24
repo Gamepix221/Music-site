@@ -33,7 +33,7 @@ header nav {
     display: flex;
     align-items: center;
  }
- a {
+ header nav a {
     margin-left: 20px;
  }
 main {
@@ -55,6 +55,6 @@ main .right img{
     width: auto;
     height: 80vh;
 }
-main .left h2, p, a {
-    margin-bottom: 40px;
+main .left h1, main .left p, main .left a {
+    margin-bottom: 80px;
 }
