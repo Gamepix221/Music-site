@@ -49,12 +49,11 @@ main .left .btn {
     padding: 15px;
     border-radius: 10px;
     background-color: #C14A4A ;
-    text-align: center;
     width: 50%;
 }
 main .right img{
     width: auto;
-    height: 100vh;
+    height: 50vh;
 }
 main .left h2, p, .btn {
     margin-bottom: 40px;
