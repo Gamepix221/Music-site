@@ -43,8 +43,17 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 main .left .btn {
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    background-color: #C14A4A ;
+}
+main .right img{
+    width: 959;
+    height:676;
+}
+main .left h2, p .btn {
+    margin-bottom: 70px;
 }
