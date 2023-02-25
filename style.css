@@ -103,11 +103,11 @@ main::before {
 }
 @keyframes slide1 {
     from {
-        transform: translateY(100vh);
-        transform: translateX(100vw)
+        transform: translateY(100%);
+        transform: translateX(100%)
     }
     to {
-        transform: translateY(0vh);
-        transform: translateX(0vw);
+        transform: translateY(0);
+        transform: translateX(0);
     }
 }
