@@ -46,7 +46,7 @@ main {
     align-items: center;
 }
 main .left .btn {
-   /* padding: 15px;*/
+    padding: 15px;
     border-radius: 10px;
     background-color: #C14A4A ;
     width: 50%;
