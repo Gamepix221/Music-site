@@ -71,7 +71,7 @@ main .left {
 }
 .soudify::after{
     content: "";
-    background: linear-gradient(#083CF4, #E70B81);
+    background: linear-gradient(to left top,#083CF4, #E70B81);
     position: absolute;
     height: 3px;
     width: 100%;
