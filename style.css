@@ -68,4 +68,5 @@ main .left {
 .soudify {
     text-decoration: underline;
     text-decoration-color: #C14A4A;
+    text-decoration-thickness: 3px;
 }
