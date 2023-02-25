@@ -78,3 +78,9 @@ main .left {
     left: 0;
     bottom: -10px;
 }
+main .left::after {
+    content: "";
+    background: linear-gradient(180deg, rgba(8, 60, 244, 0.1) 0%, rgba(231, 11, 129, 0.1) 100%);
+    padding: 20px;
+    border-radius: 50px
+}
