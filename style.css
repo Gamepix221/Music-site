@@ -102,11 +102,12 @@ main::before {
     z-index: 0;
 }
 @keyframes slide1 {
-    from {
+    50%{
         right:0px;
         bottom:0px;
     }
-    to {
+
+    100% {
         top:0px;
         left:0px;  
     }
