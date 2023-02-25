@@ -35,6 +35,7 @@ header nav {
  }
  header nav a {
     margin-left: 20px;
+    font-size: 18px;
  }
 main {
     height: 100%;
@@ -67,6 +68,7 @@ main .left {
 }
 .soudify {
     position: relative;
+    padding: 0 10px
 }
 .soudify::after{
     content: "";
