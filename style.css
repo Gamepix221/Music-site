@@ -85,8 +85,8 @@ main::after {
     position: absolute;
     height: 350px;
     width: 350px;
-    right: -50px;
-    bottom:-50px;
+    left: 0px;
+    top:0px;
     z-index: 0;
     animation: slide1 5s infinite;
 }
