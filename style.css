@@ -88,7 +88,7 @@ main::after {
     right: -50px;
     bottom:-50px;
     z-index: 0;
-    animation: slide1 10s infinite;
+    animation: slide1 5s infinite;
 }
 main::before {    
     content: "";    
