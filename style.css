@@ -82,8 +82,8 @@ main::after {
     content: "";
     background: linear-gradient(180deg, rgba(8, 60, 244, 0.1) 0%, rgba(231, 11, 129, 0.1) 100%);
     border-radius: 50px;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     position: absolute;
     right: -50px;
     bottom:-50px;
