@@ -107,15 +107,15 @@ main::before {
         bottom:0px;
     }
     50%{
-        right:200px;
-        bottom: 200px;
+        right:300px;
+        bottom: 300px;
     }
     75%{
-        right:400px;
-        bottom:400px;
+        right:600px;
+        bottom:600px;
     }
     100% {
-        top:0px;
-        left:0px;  
+        right:900px;
+        bottom:900px;  
     }
 }
