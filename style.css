@@ -81,7 +81,7 @@ main .left {
 main .left::after {
     content: "";
     background: linear-gradient(180deg, rgba(8, 60, 244, 0.1) 0%, rgba(231, 11, 129, 0.1) 100%);
-    padding: 50px;
+    padding: 200px;
     border-radius: 50px;
     position: absolute;
     right: -10px;
