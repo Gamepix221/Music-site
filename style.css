@@ -87,8 +87,9 @@ main::after {
     width: 350px;
     right: -100px;
     bottom:-100px;
+    z-index: 0;
 }
-main::after {    
+main::before {    
     content: "";    
     background: linear-gradient(180deg,  rgba(8, 60, 244, 0.1) 0%,  rgba(231, 11, 129, 0.1) 100%);    
     border-radius: 50px;    
@@ -96,4 +97,6 @@ main::after {
     height: 100px;    
     width: 100px;   
     left: 25px;    
-    bottom:50px;}
+    bottom:50px;
+    z-index: 0;
+}
