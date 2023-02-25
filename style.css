@@ -88,7 +88,7 @@ main::after {
     right: -50px;
     bottom:-50px;
     z-index: 0;
-    animation: slide1 3s infinite;
+    animation: slide1 5s infinite;
 }
 main::before {    
     content: "";    
@@ -102,48 +102,14 @@ main::before {
     z-index: 0;
 }
 @keyframes slide1 {
-    0%{
-        right:0px;
-        bottom:0px;
-    }
-    10%{
-        right:100px;
-        bottom: 100px;
-    }
-    20%{
-        right:200px;
-        bottom:200px;
-    }
-    30% {
-        right:300px;
-        bottom:300px;  
-    }
-    40%{
-        right: 400px;
-        bottom: 400px;
-    }
-    50%{
-        right: 500px;
-        bottom: 500px;
-    }
-    60%{
-        right: 600px;
-        bottom: 600px;
-    }
-    70%{
-        right: 700px;
-        bottom: 700px;
-    }
-    80%{
-        right: 800px;
-        bottom: 800px;
-    }
-    90%{
-        right: 900px;
-        bottom: 900px;
-    }
-    100%{
-        right: 1000px;
-        bottom: 1000px;
+    from {
+        transform: translateX(0%);
+        transform: translateY(0%);
+      }
+    
+      to {
+        transform: translateX(100%);
+        transform: translateY(100%);
+      }
     }
 }
