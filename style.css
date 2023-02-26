@@ -164,8 +164,8 @@ main .left .card{
     margin-bottom: 40px;
 }
 main .left .card img{
-    width: 15%;
+    width: 100px;
 }
 main .right .albums {
-    width: 45%;
+    width: 400px;
 }
