@@ -58,7 +58,7 @@ main .left .btn {
 }
 main .right .woman{
     width: auto;
-    height: 100%;
+    height: calc(93vh - 20px);
 }
 main .left p{
     margin-top: 40px;
