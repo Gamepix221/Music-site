@@ -161,7 +161,9 @@ main .left .card{
 }
 main .left .card img{
     width: 15%;
+    height: auto;
 }
 main section > img {
     width: 45%;
+    height:auto;
 }
