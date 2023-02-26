@@ -103,7 +103,7 @@ main::before {
 }
 @keyframes slide1 {
     from {
-        transform: translate(0,0);
+        transform: translate(400px,400px);
       }
     
     to {
