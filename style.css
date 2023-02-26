@@ -152,7 +152,7 @@ main .right::after {
         transform: translate(0,0);    
     }
 }
-main .left .card{
+/*main .left .card{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -166,4 +166,4 @@ main .left .card img{
 main .right .albums {
     width: 45%;
     height:auto;
-}
+}*/
