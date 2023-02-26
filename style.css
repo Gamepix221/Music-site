@@ -88,7 +88,7 @@ main::after {
     right: 0px;
     bottom:0px;
     z-index: 0;
-    animation: slide1 5s infinite;
+    animation: slide1 10s infinite;
 }
 main::before {    
     content: "";    
@@ -103,11 +103,11 @@ main::before {
 }
 @keyframes slide1 {
     from {
-        transform: translate(0px,0px);
+        transform: translate(0,0);
       }
     
     to {
-        transform: translate(-700px,700px);
+        transform: translate(-100vw,-100vh);
       }
     
 }
