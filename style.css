@@ -14,8 +14,9 @@ body {
 }
 header {
     width: 80vw;
-    height: 19vh;
+    height: 10vh;
     margin: auto;
+    background-color: crimson;
 }
 header nav {
     display: flex;
@@ -42,7 +43,7 @@ header nav {
     font-size: 18px;
  }
 main {
-    height: 81vh;
+    height: 90vh;
     width: 90vw;
     margin: auto;
     display: flex;
@@ -59,7 +60,7 @@ main .left .btn {
 }
 main .right .woman{
     width: auto;
-    height: 81vh;
+    height: 100%;
 }
 main .left p{
     margin-top: 40px;
