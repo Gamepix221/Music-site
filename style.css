@@ -54,7 +54,7 @@ main .left .btn {
     background-color: #C14A4A ;
     width: 50%;
 }
-main .right img{
+main .right .woman{
     width: auto;
     height: 81vh;
 }
@@ -159,11 +159,11 @@ main .left .card{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-/*main .left .card img{
+main .left .card img{
     width: 15%;
     height: auto;
 }
 main .right .albums {
     width: 45%;
     height:auto;
-}*/
+}
