@@ -172,3 +172,6 @@ main .right .albums {
 main .left1 div + p {
     font-size: 1.7rem;
 }
+main .left1 h1 {
+    font-size: 3rem ;
+}
