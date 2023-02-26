@@ -85,8 +85,8 @@ main::after {
     position: absolute;
     height: 350px;
     width: 350px;
-    left: 0px;
-    top:0px;
+    right: 0px;
+    bottom:0px;
     z-index: 0;
     animation: slide1 5s infinite;
 }
@@ -103,13 +103,11 @@ main::before {
 }
 @keyframes slide1 {
     from {
-        bottom:0px;
-        right: 0px;
+        transform: translateY(0%);
       }
     
     to {
-        bottom: 900px;
-        right:900px;
+        transform: translateY(100%);
       }
     
 }
