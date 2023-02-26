@@ -22,15 +22,15 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 3vh;
 }
  header nav .lien {
     display: flex;
     flex-direction: row;
  }
  header nav img {
-    height: 7vh;
-    width:7vh;
+    height: 8vh;
+    width:8vw;
  }
 
  header nav .right {
@@ -42,7 +42,7 @@ header nav {
     font-size: 18px;
  }
 main {
-    height: calc(93vh - 20px);
+    height: 89vh;
     width: 90vw;
     margin: auto;
     display: flex;
@@ -58,7 +58,7 @@ main .left .btn {
 }
 main .right .woman{
     width: auto;
-    height: calc(93vh - 20px);
+    height: 89vh;
 }
 main .left p{
     margin-top: 40px;
