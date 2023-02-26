@@ -42,6 +42,7 @@ header nav {
  }
 main {
     width: 90%;
+    height: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -151,6 +152,9 @@ main .right::after {
     100%{        
         transform: translate(0,0);    
     }
+}
+main .left , main .right{
+    background-color: crimson;
 }
 main .left .card{
     display: flex;
