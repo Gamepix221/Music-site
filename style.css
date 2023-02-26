@@ -163,7 +163,7 @@ main .left .card img{
     width: 15%;
     height: auto;
 }
-main section > img {
+main .right .album {
     width: 45%;
     height:auto;
 }
