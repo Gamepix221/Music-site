@@ -16,7 +16,6 @@ header {
     width: 80vw;
     height: 7vh;
     margin: auto;
-    background-color: #fff;
 }
 header nav {
     display: flex;
@@ -31,7 +30,7 @@ header nav {
  }
  header nav img {
     height: 8vh;
-    width:8vw;
+    width: auto;
  }
 
  header nav .right {
@@ -50,12 +49,11 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
 }
 main .left .btn {
     padding: 15px;
     border-radius: 10px;
-    background-color: #C14A4A ;
+    background-color: #C14A4A;
     width: 50%;
 }
 main .right .woman{
