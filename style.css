@@ -88,7 +88,7 @@ main::after {
     right: 0px;
     bottom:0px;
     z-index: 0;
-    animation: slide1 5s infinite;
+    animation: slide1 8s infinite;
 }
 main::before {    
     content: "";    
@@ -100,7 +100,7 @@ main::before {
     left: 40px;    
     bottom:80px;
     z-index: 0;
-    animation: slide2 5s infinite;
+    animation: slide2 8s infinite;
 }
 main .right::after {
     content: "";        
@@ -112,7 +112,7 @@ main .right::after {
     top: 80px;        
     left: 400px;
     z-index: 0; 
-    animation: slide3 5s infinite;
+    animation: slide3 8s infinite;
 }
 @keyframes slide1 {
     0%{
@@ -120,7 +120,7 @@ main .right::after {
       }
     
     50%{
-        transform: translate(-80vw,-80vh);
+        transform: translate(-90vw,-90vh);
       }
     100%{
         transform: translate(0,0);
