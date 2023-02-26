@@ -102,12 +102,15 @@ main::before {
     z-index: 0;
 }
 @keyframes slide1 {
-    from {
+    0%{
         transform: translate(0,0);
       }
     
-    to {
+    50%{
         transform: translate(-100vw,-100vh);
       }
+    100%{
+        transform: translate(0,0);
+    }
     
 }
