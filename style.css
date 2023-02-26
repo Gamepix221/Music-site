@@ -81,7 +81,7 @@ main .left {
 main::after {
     content: "";
     background: linear-gradient(180deg, rgba(8, 60, 244, 0.1) 0%, rgba(231, 11, 129, 0.1) 100%);
-    border-radius: 175px;
+    border-radius: 50%;
     position: absolute;
     height: 350px;
     width: 350px;
@@ -93,13 +93,26 @@ main::after {
 main::before {    
     content: "";    
     background: linear-gradient(180deg,  rgba(8, 60, 244, 0.1) 0%,  rgba(231, 11, 129, 0.1) 100%);    
-    border-radius: 50px;    
+    border-radius: 50%;    
     position: absolute;    
     height: 100px;    
     width: 100px;   
     left: 40px;    
     bottom:80px;
     z-index: 0;
+    animation: slide1 10s infinite;
+}
+main .right::after {
+    content: "";        
+    background: linear-gradient(180deg,   rgba(8, 60, 244, 0.1) 0%,   rgba(231, 11, 129, 0.1) 100%);        
+    border-radius: 50%;        
+    position: absolute;        
+    height: 100px;        
+    width: 100px;       
+    top: 80px;        
+    left:200px;    
+    z-index: 0; 
+    animation: slide1 10s infinite;
 }
 @keyframes slide1 {
     0%{
