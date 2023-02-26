@@ -16,6 +16,7 @@ header {
     width: 80vw;
     height: 7vh;
     margin: auto;
+    background-color: #fff;
 }
 header nav {
     display: flex;
@@ -49,6 +50,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
 }
 main .left .btn {
     padding: 15px;
