@@ -153,9 +153,6 @@ main .right::after {
         transform: translate(0,0);    
     }
 }
-main .left , main .right{
-    background-color: crimson;
-}
 main .left .card{
     display: flex;
     flex-direction: row;
@@ -164,11 +161,11 @@ main .left .card{
     margin-bottom: 40px;
 }
 main .left .card img{
-    width: 15vw;
+    width: 9vw;
 }
 main .right .albums {
-    width: 45vw ;
+    width: 35vw ;
 }
 main .left p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
