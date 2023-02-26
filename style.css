@@ -13,7 +13,7 @@ body {
     background-color: rgb(47, 48, 58);
 }
 header {
-    width: 80%;
+    width: 80vw;
     margin: auto;
 }
 header nav {
@@ -42,13 +42,14 @@ header nav {
  }
 main {
     height: 100vh;
-    width: 90%;
+    width: 90vw;
     height: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: crimson;
 }
 main .left .btn {
     padding: 15px;
@@ -162,7 +163,7 @@ main .left1 .card{
     margin-bottom: 40px;
 }
 main .left1 .card img{
-    width: 15vw;
+    width: 12.5vw;
 }
 main .right .albums {
     width: 35vw ;
