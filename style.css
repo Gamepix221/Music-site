@@ -41,7 +41,7 @@ header nav {
     font-size: 18px;
  }
 main {
-    height: 100vh;
+    height: 81vh;
     width: 90vw;
     margin: auto;
     display: flex;
@@ -168,5 +168,5 @@ main .right .albums {
     width: 35vw ;
 }
 main .left1 div + p {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
