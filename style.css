@@ -107,7 +107,7 @@ main::before {
     z-index: 0;
     animation: slide2 9s infinite;
 }
-main .right::after {
+main .right::after, main .left2::after{
     content: "";        
     background: linear-gradient(180deg,   rgba(8, 60, 244, 0.1) 0%,   rgba(231, 11, 129, 0.1) 100%);        
     border-radius: 50%;        
