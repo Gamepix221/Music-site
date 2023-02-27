@@ -221,8 +221,8 @@ form {
     justify-content: space-between;
     background-color: #202027;
     align-items: center;
-    border-radius: 20%;
-    width: 45vw;
+    border-radius: 10%;
+    width: 35vw;
     height: 60vh;
     padding: 10px 0px;
 }
@@ -231,7 +231,5 @@ input, label{
     color: white;
     border-color: #385CDD;
     padding: 5%;
-    width: 60%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 300px;
 }
