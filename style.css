@@ -223,13 +223,16 @@ form {
     align-items: center;
     border-radius: 5%;
     width: 35vw;
-    height: 60vh;
-    padding: 10px 0px;
+    height: 75vh;
+    padding: 15px 0px;
 }
 input{
     background-color: #202027;
     color: white;
     border-color: #385CDD;
     padding: 5%;
+    margin-top: 3vh;
+}
+label {
     width: 15vw;
 }
