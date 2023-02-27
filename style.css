@@ -233,6 +233,12 @@ input{
     padding: 5%;
     margin-top: 3vh;
 }
+button{
+    width: 25vw;
+    padding: 5%;
+    background-color: #C14A4A;
+    text-align: center;
+}
 label {
     width: 25vw;
 }
