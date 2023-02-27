@@ -221,15 +221,15 @@ form {
     justify-content: space-between;
     background-color: #202027;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 5%;
     width: 35vw;
     height: 60vh;
     padding: 10px 0px;
 }
-input, label{
+input{
     background-color: #202027;
     color: white;
     border-color: #385CDD;
     padding: 5%;
-    width: 25vw;
+    width: 15vw;
 }
