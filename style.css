@@ -101,8 +101,8 @@ main::before {
     background: linear-gradient(180deg,  rgba(8, 60, 244, 0.1) 0%,  rgba(231, 11, 129, 0.1) 100%);    
     border-radius: 50%;    
     position: absolute;    
-    height: 100px;    
-    width: 100px;   
+    height: 250px;    
+    width: 250px;   
     left: 40px;    
     bottom:80px;
     z-index: 0;
@@ -119,7 +119,19 @@ main .right::after, main .left2::after{
     left: 400px;
     z-index: 0; 
     animation: slide3 9s infinite;
-}
+}   
+.right::before, .left::before, .right2::before{
+    content:"";
+    background: linear-gradient(180deg,  rgba(8, 60, 244, 0.1) 0%,  rgba(231, 11, 129, 0.1) 100%);    
+    border-radius: 50%;
+    position:absolute;
+    height: 450px;
+    width:450px;
+    top:50px;
+    right: 250px;
+    z-index:0;
+    animation: slide4 9s infinite;
+} 
 @keyframes slide1 {
     0%{
         transform: translate(0,0);
@@ -153,6 +165,17 @@ main .right::after, main .left2::after{
     }    
     100%{        
         transform: translate(0,0);    
+    }
+}
+@keyframes slide4 {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(-80vw, 80vh);
+    }
+    100%{
+        transform: translate(0,0);
     }
 }
 main .left1 .card{
