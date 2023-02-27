@@ -258,7 +258,7 @@ input{
 }
 button{
     width: 25vw;
-    padding: 5%;
+    height: 10%;
     background-color: #C14A4A;
     text-align: center;
     border: 2px solid #C14A4A;
