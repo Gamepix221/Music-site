@@ -238,6 +238,8 @@ button{
     padding: 5%;
     background-color: #C14A4A;
     text-align: center;
+    border-color: #C14A4A;
+    border-radius: 2.5%;
 }
 label {
     width: 25vw;
