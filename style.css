@@ -174,19 +174,22 @@ main .left1 h1 {
     font-size: 2.7rem ;
 }
 main .left2 h1:nth-child(1){
-    font-weight: 400;
+    font-weight: 300;
     color: #607EE9;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 main .left2 h1:nth-child(2){
     font-weight: 400;
     color: #D34692;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    margin-top:40px;
+    margin-bottom: 40px;
 }
 .sound{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 3%;
 }
 main .left2 .sound img {
     width: 12.5vw;
