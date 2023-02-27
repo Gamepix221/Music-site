@@ -223,7 +223,7 @@ form {
     align-items: center;
     border-radius: 5%;
     width: 35vw;
-    height: 75vh;
+    height: 60vh;
     padding: 15px 0px;
 }
 input{
@@ -234,5 +234,5 @@ input{
     margin-top: 3vh;
 }
 label {
-    width: 15vw;
+    width: 25vw;
 }
