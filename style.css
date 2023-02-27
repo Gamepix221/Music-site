@@ -211,3 +211,19 @@ footer .contact {
 footer .media {
     margin-right: 7vw;
 }
+.name , .email , .password {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #202027;
+}
+input {
+    color: #202027;
+    border-radius: 5%;
+    border-color: #385CDD;
+    padding: 7%;
+}
