@@ -174,12 +174,14 @@ main .left1 h1 {
     font-size: 2.7rem ;
 }
 main .left2 h1:nth-child(1){
+    font-weight: 400;
     color: #607EE9;
     font-size: 2.4rem;
 }
 main .left2 h1:nth-child(2){
+    font-weight: 400;
     color: #D34692;
-    font-size: 2.7rem;
+    font-size: 3.5rem;
 }
 .sound{
     display: flex;
@@ -190,11 +192,19 @@ main .left2 .sound img {
     width: 12.5vw;
 }
 footer {
+    padding: 2vh;
     background-color: #202027;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 footer a{
     margin-left: 3vw;
+    font-size: 1em;
+}
+footer .contact {
+    margin-left: 7vw;
+}
+footer .media {
+    margin-right: 7vw;
 }
