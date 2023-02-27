@@ -220,10 +220,16 @@ form {
     flex-direction: column;
     justify-content: space-between;
     background-color: #202027;
+    align-items: center;
+    width: 40vw;
+    padding: 10px 40px
 }
 input {
-    color: #202027;
-    border-radius: 5%;
+    background-color: #202027;
+    color: white;
+    border-radius: 10%;
     border-color: #385CDD;
-    padding: 7%;
+    padding: 5%;
+    width: 60%;
+    margin-top: 15px;
 }
