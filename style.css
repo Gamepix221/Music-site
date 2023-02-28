@@ -88,8 +88,8 @@ main::after {
     background: linear-gradient(180deg, rgba(8, 60, 244, 0.1) 0%, rgba(231, 11, 129, 0.1) 100%);
     border-radius: 50%;
     position: absolute;
-    height: 350px;
-    width: 350px;
+    height: 30vh;
+    width: 30vw;
     right: 0px;
     bottom:0px;
     z-index: 0;
@@ -100,8 +100,8 @@ main::before {
     background: linear-gradient(180deg,  rgba(8, 60, 244, 0.1) 0%,  rgba(231, 11, 129, 0.1) 100%);    
     border-radius: 50%;    
     position: absolute;    
-    height: 250px;    
-    width: 250px;   
+    height: 20vh;    
+    width: 20vw;   
     left: 40px;    
     bottom:80px;
     z-index: 0;
@@ -112,8 +112,8 @@ main .right::after, main .left2::after{
     background: linear-gradient(180deg,   rgba(8, 60, 244, 0.1) 0%,   rgba(231, 11, 129, 0.1) 100%);        
     border-radius: 50%;        
     position: absolute;        
-    height: 100px;        
-    width: 100px;       
+    height: 10vh;        
+    width: 10vw;       
     top: 80px;        
     left: 400px;
     z-index: 0; 
@@ -124,8 +124,8 @@ main .right::after, main .left2::after{
     background: linear-gradient(180deg,  rgba(8, 60, 244, 0.1) 0%,  rgba(231, 11, 129, 0.1) 100%);    
     border-radius: 50%;
     position:absolute;
-    height: 450px;
-    width:450px;
+    height: 40vh;
+    width:40vw;
     top:50px;
     right: 250px;
     z-index:0;
